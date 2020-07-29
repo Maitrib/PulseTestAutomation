@@ -1,0 +1,29 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testng-results skipped="0" failed="0" ignored="0" total="2" passed="2">
+  <reporter-output>
+  </reporter-output>
+  <suite name="Pulse Test Automation" duration-ms="245" started-at="2020-07-29T08:01:41Z" finished-at="2020-07-29T08:01:41Z">
+    <groups>
+    </groups>
+    <test name="first test" duration-ms="202" started-at="2020-07-29T08:01:41Z" finished-at="2020-07-29T08:01:41Z">
+      <class name="com.manifest.TestCases.firstTest">
+        <test-method status="PASS" signature="test()[pri:0, instance:com.manifest.TestCases.firstTest@4b21844c]" name="test" duration-ms="7" started-at="2020-07-29T13:31:41Z" finished-at="2020-07-29T13:31:41Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- test -->
+      </class> <!-- com.manifest.TestCases.firstTest -->
+    </test> <!-- first test -->
+    <test name="second test" duration-ms="33" started-at="2020-07-29T08:01:41Z" finished-at="2020-07-29T08:01:41Z">
+      <class name="com.manifest.TestCases.firstTest">
+        <test-method status="PASS" signature="test()[pri:0, instance:com.manifest.TestCases.firstTest@2187fff7]" name="test" duration-ms="1" started-at="2020-07-29T13:31:41Z" finished-at="2020-07-29T13:31:41Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- test -->
+        <test-method status="PASS" signature="tearDown()[pri:0, instance:com.manifest.TestCases.firstTest@2187fff7]" name="tearDown" is-config="true" duration-ms="134" started-at="2020-07-29T13:31:41Z" finished-at="2020-07-29T13:31:41Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- tearDown -->
+      </class> <!-- com.manifest.TestCases.firstTest -->
+    </test> <!-- second test -->
+  </suite> <!-- Pulse Test Automation -->
+</testng-results>
