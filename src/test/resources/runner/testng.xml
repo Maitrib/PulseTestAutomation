@@ -8,9 +8,9 @@
       <listener class-name="com.manifest.Listeners.CustomListeners"></listener>
   </listeners>
   
-  <test name="First Test">
+  <test name="Login Test">
 		<classes>
-			<class name="com.manifest.TestCases.firstTest" />
+			<class name="com.manifest.TestCases.LoginTest" />
 		</classes>
 	</test> <!-- Test -->
   

@@ -52,8 +52,8 @@ public class Page {
 		if (driver == null) {
 
 			try {
-				fis = new FileInputStream(System.getProperty("user.dir")
-						+"/src/test/resources/properties/config.properties");
+				fis = new FileInputStream(
+						System.getProperty("user.dir") + "/src/test/resources/properties/config.properties");
 			} catch (FileNotFoundException e) {
 				// TODO Auto-generated catch block
 				e.printStackTrace();
@@ -68,7 +68,7 @@ public class Page {
 
 			try {
 				fis = new FileInputStream(
-						System.getProperty("user.dir") +"/src/test/resources/properties/OR.properties");
+						System.getProperty("user.dir") + "/src/test/resources/properties/OR.properties");
 			} catch (FileNotFoundException e) {
 				// TODO Auto-generated catch block
 				e.printStackTrace();
@@ -117,8 +117,8 @@ public class Page {
 				driver = new ChromeDriver(options);
 			} else if (config.getProperty("browser").equals("ie")) {
 
-				System.setProperty("webdriver.ie.driver", System.getProperty("user.dir")
-						+ "/src/test/resources/com/simform/executables/IEDriverServer");
+				System.setProperty("webdriver.ie.driver",
+						System.getProperty("user.dir") + "/src/test/resources/com/simform/executables/IEDriverServer");
 				driver = new InternetExplorerDriver();
 
 			}
@@ -132,7 +132,9 @@ public class Page {
 		}
 	}
 
-	public void click(String locator) {
+	// Common Keywords
+	public static void click(String locator) {
+
 		if (locator.endsWith("_CSS")) {
 			driver.findElement(By.cssSelector(OR.getProperty(locator))).click();
 		} else if (locator.endsWith("_XPATH")) {
@@ -140,12 +142,12 @@ public class Page {
 		} else if (locator.endsWith("_ID")) {
 			driver.findElement(By.id(OR.getProperty(locator))).click();
 		}
-
-		driver.findElement(By.xpath(OR.getProperty(locator))).click();
+		log.debug("Clicking on an Element : " + locator);
+		
 		test.log(LogStatus.INFO, "Clicking on : " + locator);
 	}
 
-	public void type(String locator, String value) {
+	public static void type(String locator, String value) {
 
 		if (locator.endsWith("_CSS")) {
 			driver.findElement(By.cssSelector(OR.getProperty(locator))).sendKeys(value);
@@ -155,8 +157,10 @@ public class Page {
 			driver.findElement(By.id(OR.getProperty(locator))).sendKeys(value);
 		}
 
-		driver.findElement(By.xpath(OR.getProperty(locator))).sendKeys(value);
-		test.log(LogStatus.INFO, "Tying in : " + locator + " entered value as" + value);
+		log.debug("Typing in an Element : " + locator + " entered value as : " + value);
+		
+		test.log(LogStatus.INFO, "Typing in : " + locator + " entered value as " + value);
+
 	}
 
 	static WebElement dropdown;
@@ -171,11 +175,10 @@ public class Page {
 			dropdown = driver.findElement(By.id(OR.getProperty(locator)));
 		}
 
-		dropdown = driver.findElement(By.xpath(OR.getProperty(locator)));
-
 		Select select = new Select(dropdown);
 		select.selectByVisibleText(value);
 
+		log.debug("Selecting from an element : " + locator + " value as : " + value);
 		test.log(LogStatus.INFO, "Selecting from dropdown : " + locator + " value as " + value);
 
 	}
@@ -222,7 +225,7 @@ public class Page {
 	public static void quit() {
 
 		if (driver != null) {
-			 driver.quit();
+			driver.quit();
 		}
 
 		log.debug("test execution completed !");

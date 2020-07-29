@@ -2,20 +2,27 @@
 <testng-results skipped="0" failed="0" ignored="0" total="1" passed="1">
   <reporter-output>
   </reporter-output>
-  <suite name="Pulse Test Automation" duration-ms="265" started-at="2020-07-29T09:06:13Z" finished-at="2020-07-29T09:06:14Z">
+  <suite name="Pulse Test Automation" duration-ms="4299" started-at="2020-07-29T13:52:45Z" finished-at="2020-07-29T13:52:50Z">
     <groups>
     </groups>
-    <test name="First Test" duration-ms="265" started-at="2020-07-29T09:06:13Z" finished-at="2020-07-29T09:06:14Z">
-      <class name="com.manifest.TestCases.firstTest">
-        <test-method status="PASS" signature="firstTest()[pri:0, instance:com.manifest.TestCases.firstTest@495083a0]" name="firstTest" duration-ms="7" started-at="2020-07-29T14:36:13Z" finished-at="2020-07-29T14:36:13Z">
+    <test name="Login Test" duration-ms="4299" started-at="2020-07-29T13:52:45Z" finished-at="2020-07-29T13:52:50Z">
+      <class name="com.manifest.TestCases.LoginTest">
+        <test-method status="PASS" signature="loginTest(java.util.Hashtable)[pri:0, instance:com.manifest.TestCases.LoginTest@1e044120]" name="loginTest" duration-ms="4018" started-at="2020-07-29T19:22:45Z" data-provider="dp" finished-at="2020-07-29T19:22:49Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[{password=dana123, runmode=Y, username=admindb}]]>
+              </value>
+            </param>
+          </params>
           <reporter-output>
           </reporter-output>
-        </test-method> <!-- firstTest -->
-        <test-method status="PASS" signature="tearDown()[pri:0, instance:com.manifest.TestCases.firstTest@495083a0]" name="tearDown" is-config="true" duration-ms="81" started-at="2020-07-29T14:36:14Z" finished-at="2020-07-29T14:36:14Z">
+        </test-method> <!-- loginTest -->
+        <test-method status="PASS" signature="tearDown()[pri:0, instance:com.manifest.TestCases.LoginTest@1e044120]" name="tearDown" is-config="true" duration-ms="138" started-at="2020-07-29T19:22:50Z" finished-at="2020-07-29T19:22:50Z">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- tearDown -->
-      </class> <!-- com.manifest.TestCases.firstTest -->
-    </test> <!-- First Test -->
+      </class> <!-- com.manifest.TestCases.LoginTest -->
+    </test> <!-- Login Test -->
   </suite> <!-- Pulse Test Automation -->
 </testng-results>

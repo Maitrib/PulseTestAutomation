@@ -1,14 +1,14 @@
-14:36:03,175 DEBUG devpinoyLogger:63 - Config file loaded !!!
-14:36:03,178 DEBUG devpinoyLogger:78 - OR file loaded !!!
-14:36:03,359 DEBUG Preferences:118 - Preference chrome=79 (valid until 2020-07-29 18:15:53)
-14:36:03,360 DEBUG Preferences:118 - Preference chrome79=79.0.3945.36 (valid until 2020-07-29 18:15:53)
-14:36:03,361  INFO WebDriverManager:600 - Using chromedriver 79.0.3945.36 (since Google Chrome 79 is installed in your machine)
-14:36:03,378 DEBUG WebDriverManager:545 - Driver chromedriver 79.0.3945.36 found in cache
-14:36:03,379  INFO WebDriverManager:1078 - Exporting webdriver.chrome.driver as /Users/maitri.brahmakshatriya/.m2/repository/webdriver/chromedriver/mac64/79.0.3945.36/chromedriver
-14:36:13,532 DEBUG devpinoyLogger:126 - Navigated to : https://analytics.elm.pzt.dev.perfsec.com/login/admin
-14:36:13,820 DEBUG cache:45 - Couldn't find template in cache for "Extent.ftl"("en_GB", UTF-8, parsed); will try to load it.
-14:36:13,822 DEBUG cache:45 - TemplateLoader.findTemplateSource("Extent_en_GB.ftl"): Not found
-14:36:13,823 DEBUG cache:45 - TemplateLoader.findTemplateSource("Extent_en.ftl"): Not found
-14:36:13,823 DEBUG cache:45 - TemplateLoader.findTemplateSource("Extent.ftl"): Found
-14:36:13,824 DEBUG cache:45 - Loading template for "Extent.ftl"("en_GB", UTF-8, parsed) from "jar:file:/Users/maitri.brahmakshatriya/.m2/repository/com/relevantcodes/extentreports/2.41.2/extentreports-2.41.2.jar!/com/relevantcodes/extentreports/view/Extent.ftl"
-14:36:14,144 DEBUG devpinoyLogger:228 - test execution completed !
+19:22:40,169 DEBUG devpinoyLogger:63 - Config file loaded !!!
+19:22:40,171 DEBUG devpinoyLogger:78 - OR file loaded !!!
+19:22:40,349 DEBUG Preferences:118 - Preference chrome=79 (valid until 2020-07-30 18:16:21)
+19:22:40,350 DEBUG Preferences:118 - Preference chrome79=79.0.3945.36 (valid until 2020-07-30 18:16:21)
+19:22:40,351  INFO WebDriverManager:600 - Using chromedriver 79.0.3945.36 (since Google Chrome 79 is installed in your machine)
+19:22:40,367 DEBUG WebDriverManager:545 - Driver chromedriver 79.0.3945.36 found in cache
+19:22:40,370  INFO WebDriverManager:1078 - Exporting webdriver.chrome.driver as /Users/maitri.brahmakshatriya/.m2/repository/webdriver/chromedriver/mac64/79.0.3945.36/chromedriver
+19:22:45,470 DEBUG devpinoyLogger:126 - Navigated to : https://analytics.elm.pzt.dev.perfsec.com/login/admin
+19:22:49,884 DEBUG cache:45 - Couldn't find template in cache for "Extent.ftl"("en_GB", UTF-8, parsed); will try to load it.
+19:22:49,885 DEBUG cache:45 - TemplateLoader.findTemplateSource("Extent_en_GB.ftl"): Not found
+19:22:49,886 DEBUG cache:45 - TemplateLoader.findTemplateSource("Extent_en.ftl"): Not found
+19:22:49,887 DEBUG cache:45 - TemplateLoader.findTemplateSource("Extent.ftl"): Found
+19:22:49,887 DEBUG cache:45 - Loading template for "Extent.ftl"("en_GB", UTF-8, parsed) from "jar:file:/Users/maitri.brahmakshatriya/.m2/repository/com/relevantcodes/extentreports/2.41.2/extentreports-2.41.2.jar!/com/relevantcodes/extentreports/view/Extent.ftl"
+19:22:50,233 DEBUG devpinoyLogger:235 - test execution completed !

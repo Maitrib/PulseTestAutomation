@@ -1,8 +1,9 @@
 com/manifest/Utilities/ExtentManager.class
 com/manifest/Base/Page.class
+com/manifest/Pages/DashboardPage.class
 com/manifest/Utilities/MonitoringMail$SMTPAuthenticator.class
 com/manifest/Utilities/TestUtil.class
-com/manifest/Pages/TestPage.class
+com/manifest/Pages/LoginPage.class
 com/manifest/Utilities/TestConfig.class
 com/manifest/Utilities/MonitoringMail$1.class
 com/manifest/Utilities/MonitoringMail.class
