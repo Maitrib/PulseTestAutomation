@@ -44,7 +44,22 @@ public class CustomListeners extends Page implements ITestListener, ISuiteListen
 
 	public void onTestSuccess(ITestResult result) {
 
+		try {
+			TestUtil.captureScreenshotOnPass();
+		} catch (IOException e) {
+			// TODO Auto-generated catch block
+			e.printStackTrace();
+		}
+		
 		test.log(LogStatus.PASS, result.getName().toUpperCase() + "PASS");
+		test.log(LogStatus.PASS, test.addScreenCapture(TestUtil.screenshotName));
+
+		Reporter.log("Capturing Screenshot");
+		
+		Reporter.log("<a target=\"_blank\" href=" + TestUtil.screenshotName + ">Screenshot</a>");
+		Reporter.log("<br>");
+		Reporter.log("<a target=\"_blank\" href=" + TestUtil.screenshotName + "> <img src=" + TestUtil.screenshotName
+				+ " height=200 width=200></img> </a>");
 		rep.endTest(test);
 		rep.flush();
 	}
@@ -53,7 +68,7 @@ public class CustomListeners extends Page implements ITestListener, ISuiteListen
 		System.setProperty("org.uncommons.reportng.escape-output", "false");
 
 		try {
-			TestUtil.captureScreenshot();
+			TestUtil.captureScreenshotOnFail();
 		} catch (IOException e) {
 			// TODO Auto-generated catch block
 			e.printStackTrace();

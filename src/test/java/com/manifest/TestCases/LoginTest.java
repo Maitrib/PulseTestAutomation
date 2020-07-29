@@ -4,6 +4,8 @@
 package com.manifest.TestCases;
 
 import java.util.Hashtable;
+
+import org.testng.Assert;
 import org.testng.annotations.Test;
 
 import com.manifest.Base.Page;
@@ -24,6 +26,7 @@ public class LoginTest extends BaseTest{
 		LoginPage lp = new LoginPage();
 		lp.loginPage(data.get("username"), data.get("password"));
 		
+		//Assert.fail("Login test failed");
 		
 		
 	}

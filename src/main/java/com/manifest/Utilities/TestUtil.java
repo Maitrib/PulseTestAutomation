@@ -38,11 +38,31 @@ public class TestUtil extends Page {
 
 		screenshotName = d.toString().replace(":", "_").replace(" ", "_") + ".jpg";
 		FileUtils.copyFile(scrFile,
-				new File(System.getProperty("user.dir") + "/target/surefire-reports/html/" + screenshotName));
+				new File(System.getProperty("user.dir") + "/Screenshots/" + screenshotName));
+
+	}
+	public static void captureScreenshotOnPass() throws IOException {
+
+		File scrFile = ((TakesScreenshot) driver).getScreenshotAs(OutputType.FILE);
+		Date d = new Date();
+
+		screenshotName = d.toString().replace(":", "_").replace(" ", "_") + ".jpg";
+		FileUtils.copyFile(scrFile,
+				new File(System.getProperty("user.dir") + "/Screenshots/PassScreenshotTest/" + screenshotName));
 
 	}
 	
+	public static void captureScreenshotOnFail() throws IOException {
 
+		File scrFile = ((TakesScreenshot) driver).getScreenshotAs(OutputType.FILE);
+		Date d = new Date();
+
+		screenshotName = d.toString().replace(":", "_").replace(" ", "_") + ".jpg";
+		FileUtils.copyFile(scrFile,
+				new File(System.getProperty("user.dir") + "/Screenshots/FailedScreenshotTest/" + screenshotName));
+
+	}
+	
 	@DataProvider(name = "dp")
 	public Object[][] getData(Method m) {
 
