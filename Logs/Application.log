@@ -1,7 +1,7 @@
-29/07/2020 20:50:41 devpinoyLogger Config file loaded !!!
-29/07/2020 20:50:41 devpinoyLogger OR file loaded !!!
-29/07/2020 20:50:44 devpinoyLogger Navigated to : https://analytics.elm.pzt.dev.perfsec.com/login/admin
-29/07/2020 20:50:45 devpinoyLogger Typing in an Element : username_xpath entered value as : admindb
-29/07/2020 20:50:45 devpinoyLogger Typing in an Element : password_xpath entered value as : dana123
-29/07/2020 20:50:45 devpinoyLogger Clicking on an Element : signInBtn_xpath
-29/07/2020 20:50:45 devpinoyLogger test execution completed !
+29/07/2020 21:04:54 devpinoyLogger Config file loaded !!!
+29/07/2020 21:04:54 devpinoyLogger OR file loaded !!!
+29/07/2020 21:04:58 devpinoyLogger Navigated to : https://analytics.elm.pzt.dev.perfsec.com/login/admin
+29/07/2020 21:04:58 devpinoyLogger Typing in an Element : username_xpath entered value as : admindb
+29/07/2020 21:04:58 devpinoyLogger Typing in an Element : password_xpath entered value as : dana123
+29/07/2020 21:04:58 devpinoyLogger Clicking on an Element : signInBtn_xpath
+29/07/2020 21:04:59 devpinoyLogger test execution completed !

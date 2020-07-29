@@ -1,5 +1,5 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<testsuite name="TestSuite" time="0.007" tests="1" errors="0" skipped="0" failures="0">
+<testsuite name="TestSuite" time="0.023" tests="1" errors="0" skipped="0" failures="1">
   <properties>
     <property name="java.runtime.name" value="Java(TM) SE Runtime Environment"/>
     <property name="sun.boot.library.path" value="/Library/Java/JavaVirtualMachines/jdk1.8.0_231.jdk/Contents/Home/jre/lib"/>
@@ -26,7 +26,7 @@
     <property name="line.separator" value="&#10;"/>
     <property name="java.vm.specification.vendor" value="Oracle Corporation"/>
     <property name="os.name" value="Mac OS X"/>
-    <property name="classworlds.conf" value="/Users/maitri.brahmakshatriya/eclipse-workspace/.metadata/.plugins/org.eclipse.m2e.launching/launches/m2conf7317820538179910043.tmp"/>
+    <property name="classworlds.conf" value="/Users/maitri.brahmakshatriya/eclipse-workspace/.metadata/.plugins/org.eclipse.m2e.launching/launches/m2conf7315029960520179129.tmp"/>
     <property name="sun.jnu.encoding" value="UTF-8"/>
     <property name="java.library.path" value="/Users/maitri.brahmakshatriya/Library/Java/Extensions:/Library/Java/Extensions:/Network/Library/Java/Extensions:/System/Library/Java/Extensions:/usr/lib/java:."/>
     <property name="java.specification.name" value="Java Platform API Specification"/>
@@ -59,5 +59,19 @@
     <property name="sun.io.unicode.encoding" value="UnicodeBig"/>
     <property name="sun.cpu.isalist" value=""/>
   </properties>
-  <testcase name="loginTest" classname="com.manifest.TestCases.LoginTest" time="0.007"/>
+  <testcase name="loginTest" classname="com.manifest.TestCases.LoginTest" time="0.023">
+    <failure message="Login test failed" type="java.lang.AssertionError">java.lang.AssertionError: Login test failed
+	at org.testng.Assert.fail(Assert.java:93)
+	at com.manifest.TestCases.LoginTest.loginTest(LoginTest.java:29)
+</failure>
+    <system-out><![CDATA[[TestNGContentHandler] [WARN] It is strongly recommended to add "<!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd" >" at the top of your file, otherwise TestNG may fail or not work as expected.
+]]></system-out>
+    <system-err><![CDATA[Starting ChromeDriver 79.0.3945.36 (3582db32b33893869b8c1339e8f4d9ed1816f143-refs/branch-heads/3945@{#614}) on port 47587
+Only local connections are allowed.
+Please protect ports used by ChromeDriver and related test frameworks to prevent access by malicious code.
+[1596036894.437][WARNING]: FromSockAddr failed on netmask
+Jul 29, 2020 9:04:56 PM org.openqa.selenium.remote.ProtocolHandshake createSession
+INFO: Detected dialect: W3C
+]]></system-err>
+  </testcase>
 </testsuite>
