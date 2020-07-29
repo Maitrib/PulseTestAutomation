@@ -5,21 +5,21 @@
       <![CDATA[Capturing Screenshot]]>
     </line>
     <line>
-      <![CDATA[<a target="_blank" href=Wed_Jul_29_20_44_43_IST_2020.jpg>Screenshot</a>]]>
+      <![CDATA[<a target="_blank" href=Wed_Jul_29_20_50_45_IST_2020.jpg>Screenshot</a>]]>
     </line>
     <line>
       <![CDATA[<br>]]>
     </line>
     <line>
-      <![CDATA[<a target="_blank" href=Wed_Jul_29_20_44_43_IST_2020.jpg> <img src=Wed_Jul_29_20_44_43_IST_2020.jpg height=200 width=200></img> </a>]]>
+      <![CDATA[<a target="_blank" href=Wed_Jul_29_20_50_45_IST_2020.jpg> <img src=Wed_Jul_29_20_50_45_IST_2020.jpg height=200 width=200></img> </a>]]>
     </line>
   </reporter-output>
-  <suite name="Pulse Test Automation" duration-ms="565" started-at="2020-07-29T15:14:42Z" finished-at="2020-07-29T15:14:43Z">
+  <suite name="Pulse Test Automation" duration-ms="560" started-at="2020-07-29T15:20:45Z" finished-at="2020-07-29T15:20:45Z">
     <groups>
     </groups>
-    <test name="Login Test" duration-ms="565" started-at="2020-07-29T15:14:42Z" finished-at="2020-07-29T15:14:43Z">
+    <test name="Login Test" duration-ms="560" started-at="2020-07-29T15:20:45Z" finished-at="2020-07-29T15:20:45Z">
       <class name="com.manifest.TestCases.LoginTest">
-        <test-method status="PASS" signature="loginTest(java.util.Hashtable)[pri:0, instance:com.manifest.TestCases.LoginTest@2f2bf0e2]" name="loginTest" duration-ms="14" started-at="2020-07-29T20:44:42Z" data-provider="dp" finished-at="2020-07-29T20:44:42Z">
+        <test-method status="PASS" signature="loginTest(java.util.Hashtable)[pri:0, instance:com.manifest.TestCases.LoginTest@1eba372c]" name="loginTest" duration-ms="12" started-at="2020-07-29T20:50:45Z" data-provider="dp" finished-at="2020-07-29T20:50:45Z">
           <params>
             <param index="0">
               <value>
@@ -32,17 +32,17 @@
               <![CDATA[Capturing Screenshot]]>
             </line>
             <line>
-              <![CDATA[<a target="_blank" href=Wed_Jul_29_20_44_43_IST_2020.jpg>Screenshot</a>]]>
+              <![CDATA[<a target="_blank" href=Wed_Jul_29_20_50_45_IST_2020.jpg>Screenshot</a>]]>
             </line>
             <line>
               <![CDATA[<br>]]>
             </line>
             <line>
-              <![CDATA[<a target="_blank" href=Wed_Jul_29_20_44_43_IST_2020.jpg> <img src=Wed_Jul_29_20_44_43_IST_2020.jpg height=200 width=200></img> </a>]]>
+              <![CDATA[<a target="_blank" href=Wed_Jul_29_20_50_45_IST_2020.jpg> <img src=Wed_Jul_29_20_50_45_IST_2020.jpg height=200 width=200></img> </a>]]>
             </line>
           </reporter-output>
         </test-method> <!-- loginTest -->
-        <test-method status="PASS" signature="tearDown()[pri:0, instance:com.manifest.TestCases.LoginTest@2f2bf0e2]" name="tearDown" is-config="true" duration-ms="696" started-at="2020-07-29T20:44:43Z" finished-at="2020-07-29T20:44:44Z">
+        <test-method status="PASS" signature="tearDown()[pri:0, instance:com.manifest.TestCases.LoginTest@1eba372c]" name="tearDown" is-config="true" duration-ms="77" started-at="2020-07-29T20:50:45Z" finished-at="2020-07-29T20:50:45Z">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- tearDown -->
